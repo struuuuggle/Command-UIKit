@@ -13,6 +13,12 @@
 		1565662424713569008A4693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1565662224713569008A4693 /* Main.storyboard */; };
 		156566262471356B008A4693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156566252471356B008A4693 /* Assets.xcassets */; };
 		156566292471356B008A4693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156566272471356B008A4693 /* LaunchScreen.storyboard */; };
+		1565663124713ABA008A4693 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565663024713ABA008A4693 /* Command.swift */; };
+		1565663324713BDB008A4693 /* MacroCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565663224713BDB008A4693 /* MacroCommand.swift */; };
+		1565663524714793008A4693 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565663424714793008A4693 /* Stack.swift */; };
+		1565663724714866008A4693 /* DrawCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565663624714866008A4693 /* DrawCommand.swift */; };
+		1565663924714BA4008A4693 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565663824714BA4008A4693 /* Drawable.swift */; };
+		1565663B24715011008A4693 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565663A24715011008A4693 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		156566252471356B008A4693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		156566282471356B008A4693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1565662A2471356B008A4693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1565663024713ABA008A4693 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		1565663224713BDB008A4693 /* MacroCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroCommand.swift; sourceTree = "<group>"; };
+		1565663424714793008A4693 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		1565663624714866008A4693 /* DrawCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCommand.swift; sourceTree = "<group>"; };
+		1565663824714BA4008A4693 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		1565663A24715011008A4693 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				1565661C24713569008A4693 /* AppDelegate.swift */,
 				1565661E24713569008A4693 /* SceneDelegate.swift */,
 				1565662024713569008A4693 /* ViewController.swift */,
+				1565663024713ABA008A4693 /* Command.swift */,
+				1565663224713BDB008A4693 /* MacroCommand.swift */,
+				1565663624714866008A4693 /* DrawCommand.swift */,
+				1565663824714BA4008A4693 /* Drawable.swift */,
+				1565663A24715011008A4693 /* DrawView.swift */,
+				1565663424714793008A4693 /* Stack.swift */,
 				1565662224713569008A4693 /* Main.storyboard */,
 				156566252471356B008A4693 /* Assets.xcassets */,
 				156566272471356B008A4693 /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1565663724714866008A4693 /* DrawCommand.swift in Sources */,
 				1565662124713569008A4693 /* ViewController.swift in Sources */,
+				1565663324713BDB008A4693 /* MacroCommand.swift in Sources */,
+				1565663924714BA4008A4693 /* Drawable.swift in Sources */,
 				1565661D24713569008A4693 /* AppDelegate.swift in Sources */,
+				1565663B24715011008A4693 /* DrawView.swift in Sources */,
 				1565661F24713569008A4693 /* SceneDelegate.swift in Sources */,
+				1565663524714793008A4693 /* Stack.swift in Sources */,
+				1565663124713ABA008A4693 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
